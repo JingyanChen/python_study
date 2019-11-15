@@ -1,0 +1,2 @@
+#python zen
+import this

@@ -81,3 +81,5 @@ if __name__ == "__main__":
     da2 = [5,3,1,5,8,5,6,34,5,74,33,45]
     #print(merge_sort(da))
     print(merge(da1,da2,lambda x,y: x>y))
+#chenjinyan is cool boy 才怪
+"""cjy l love u"""

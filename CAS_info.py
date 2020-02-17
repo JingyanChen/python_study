@@ -14,7 +14,7 @@ html.encoding = 'utf-8'
 # + 一次或多次 大于等于一次
 # findall返回的是列表（注意！！）
 number = re.findall(
-'<a href="http://casad.cas.cn/sourcedb_ad_cas/zw2/ysxx/sxwlxb/\d\d\d\d\d\d/t20\d\d\d\d\d\d_\d\d\d\d\d\d\d.html" target="_blank">', html.text)
+'<a href="http://casad.cas.cn/sourcedb_ad_cas/zw2/ysxx/.*/\d\d\d\d\d\d/t20\d\d\d\d\d\d_\d\d\d\d\d\d\d.html" target="_blank">', html.text)
 
 #默认全部爬取,i是下一级网址的index
 for i in range(0,len(number)):
